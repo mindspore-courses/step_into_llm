@@ -1,0 +1,2 @@
+# step_into_chatgpt
+昇思MindSpore大模型技术公开课
