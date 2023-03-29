@@ -21,14 +21,14 @@
 
 | 日期 | 课程 | 课件归档 |
 |----------|----------|----------|
-| 4/15 | Transformer<br> * Multi-Head Attention<br> * Transformer结构<br>&nbsp;&nbsp;&nbsp;&nbsp; * 输入编码 <br> &nbsp;&nbsp;&nbsp;&nbsp; * Encoder <br> &nbsp;&nbsp;&nbsp;&nbsp; * Decoder <br> |  |
-| 4/22 | BERT<br> * BERT预训练<br> * BERT Finetune<br> * 使用MindSpore写一个数据并行的BERT<br> |  |
-| 4/29 | GPT<br> * Unsupervised Language Modelling<br> * Supervised Fine-Tuning<br> * 使用GPT Finetune一个Task<br> |  |
+| 4/15 | **Transformer**<br> * Multi-Head Attention<br> * Transformer结构<br>&nbsp;&nbsp;&nbsp;&nbsp; * 输入编码 <br> &nbsp;&nbsp;&nbsp;&nbsp; * Encoder <br> &nbsp;&nbsp;&nbsp;&nbsp; * Decoder <br> |  |
+| 4/22 | **BERT**<br> * BERT预训练<br> * BERT Finetune<br> * 使用MindSpore写一个数据并行的BERT<br> |  |
+| 4/29 | **GPT**<br> * Unsupervised Language Modelling<br> * Supervised Fine-Tuning<br> * 使用GPT Finetune一个Task<br> |  |
 | 5/6 | 劳动节休息，劳逸结合才能更好的学习哦~ |  |
-| 5/13 | GPT2<br> * Task Conditioning<br> * Zero Shot Learning and Zero Shot Task Transfer<br> * 使用GPT2训练一个few shot任务<br> |  |
-| 5/20 | MindSpore自动并行 |  |
-| 5/27 | 代码预训练<br> * CodeBERT<br> * CodeX、Copilot<br> * CodeGeeX<br> * 使用CodeGeeX生成代码<br> |  |
-| 6/3 | Prompt Tuning<br> * 人工定义Prompt<br> * P-tuning<br> * 使用BERT/GPT2实现Prompt Tuning<br> |  |
-| 6/10 | Instruct Tuning<br> * Let's think step by step<br> * InstructGPT<br> * Chain-of-thoughts<br> |  |
-| 6/17 | RLHF<br> * 强化学习与PPO算法<br> * InstructGPT/ChatGPT中的RLHF<br> * 动手训练一个Reward模型<br> * 使用GPT2实现ChatGPT全流程（基于人工反馈的评论生成模型）<br>|  |
+| 5/13 | **GPT2**<br> * Task Conditioning<br> * Zero Shot Learning and Zero Shot Task Transfer<br> * 使用GPT2训练一个few shot任务<br> |  |
+| 5/20 | **MindSpore自动并行** |  |
+| 5/27 | **代码预训练**<br> * CodeBERT<br> * CodeX、Copilot<br> * CodeGeeX<br> * 使用CodeGeeX生成代码<br> |  |
+| 6/3 | **Prompt Tuning**<br> * 人工定义Prompt<br> * P-tuning<br> * 使用BERT/GPT2实现Prompt Tuning<br> |  |
+| 6/10 | **Instruct Tuning**<br> * Let's think step by step<br> * InstructGPT<br> * Chain-of-thoughts<br> |  |
+| 6/17 | **RLHF**<br> * 强化学习与PPO算法<br> * InstructGPT/ChatGPT中的RLHF<br> * 动手训练一个Reward模型<br> * 使用GPT2实现ChatGPT全流程（基于人工反馈的评论生成模型）<br>|  |
 
