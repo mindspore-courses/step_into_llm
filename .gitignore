@@ -1,0 +1,6 @@
+# ckpt files
+*.ckpt
+.ipynb_checkpoints
+
+# model
+rank_0
