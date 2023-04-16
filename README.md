@@ -6,6 +6,13 @@
 
 如果你想要学习大模型背后的原理，了解前沿技术；渴望自己动手构建自己的语言模型，那就请不要错过我们大模型技术公开课！4.15起，每周六14:00-15:30，我们在b站等候你的到来₍ᐢ..ᐢ₎♡
 
+## 仓库地址
+
+- [Github](https://github.com/mindspore-courses/step_into_chatgpt)
+- [OpenI](https://openi.pcl.ac.cn/mindspore-courses/step_into_chatgpt)
+
+推荐使用OpenI平台，直接使用启智云脑算力执行公开课代码。
+
 ## 课程安排
 
 | 课程事项 |  |
