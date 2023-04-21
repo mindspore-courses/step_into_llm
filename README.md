@@ -35,12 +35,14 @@
 
 ## 课程内容
 
+> 最新通知： 考虑到4月29日为五一假期，小伙伴们可能会有自己的安排，同时也为了给大家提供更加优质的课程内容。经过综合考量，我们决定将4月29日的GPT课程后移一周，调整至5月6日开课，其余课程时间安排保持不变。特此通知，感谢大家的理解（鞠躬）。
+
 | 日期 | 课程 | 课件归档 |
 |----------|----------|----------|
-| 4/15 | **Transformer**<br> * Multi-Head Attention<br> * Transformer结构<br>&nbsp;&nbsp;&nbsp;&nbsp; * 输入编码 <br> &nbsp;&nbsp;&nbsp;&nbsp; * Encoder <br> &nbsp;&nbsp;&nbsp;&nbsp; * Decoder <br> |  |
-| 4/22 | **BERT**<br> * BERT预训练<br> * BERT Finetune<br> * 使用MindSpore写一个数据并行的BERT<br> |  |
-| 4/29 | **GPT**<br> * Unsupervised Language Modelling<br> * Supervised Fine-Tuning<br> * 使用GPT Finetune一个Task<br> |  |
-| 5/6 | 劳动节休息，劳逸结合才能更好的学习哦~ |  |
+| 4/15 | **Transformer**<br> * Multi-Head Attention<br> * Transformer结构<br>&nbsp;&nbsp;&nbsp;&nbsp; * 输入编码 <br> &nbsp;&nbsp;&nbsp;&nbsp; * Encoder <br> &nbsp;&nbsp;&nbsp;&nbsp; * Decoder <br> | [Transformer](./1.Transformer/) |
+| 4/22 | **BERT**<br> * BERT预训练<br> * BERT Finetune<br> * 使用MindSpore写一个数据并行的BERT<br> | [BERT](./2.BERT/) |
+| 4/29 | 劳动节休息，劳逸结合才能更好的学习哦~ |  |
+| 5/6 | **GPT**<br> * Unsupervised Language Modelling<br> * Supervised Fine-Tuning<br> * 使用GPT Finetune一个Task<br> |  |
 | 5/13 | **GPT2**<br> * Task Conditioning<br> * Zero Shot Learning and Zero Shot Task Transfer<br> * 使用GPT2训练一个few shot任务<br> |  |
 | 5/20 | **MindSpore自动并行** |  |
 | 5/27 | **代码预训练**<br> * CodeBERT<br> * CodeX、Copilot<br> * CodeGeeX<br> * 使用CodeGeeX生成代码<br> |  |
