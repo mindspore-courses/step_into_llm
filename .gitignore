@@ -136,3 +136,10 @@ dmypy.json
 output/
 rank_*/
 .DS_Store
+*.ipynb_checkpoints
+*.tar.gz
+*.zip
+*.tsv
+*.csv
+*.txt
+*.ckpt
