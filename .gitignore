@@ -141,5 +141,6 @@ rank_*/
 *.zip
 *.tsv
 *.csv
-*.txt
 *.ckpt
+dataset/
+data/
