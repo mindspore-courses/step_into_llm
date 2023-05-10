@@ -6,6 +6,21 @@
 
 如果你想要学习大模型背后的原理，了解前沿技术；渴望自己动手构建自己的语言模型，那就请不要错过我们大模型技术公开课！4.15起，每周六14:00-15:30，我们在b站等候你的到来₍ᐢ..ᐢ₎♡
 
+## 【新增】#为MindSpore打Call#课程学习打榜活动
+
+除了可以免费使用启智社区提供的高达8卡NPU资源外，为了帮助开发者们更好的学习大模型专题课程内容, 昇思MindSpore联合OpenI启智社区通过"我为开源打榜狂"举办一系列学习打榜活动, 为大家设定一系列加分任务, 鼓励大家进行动手实践，输出沉淀优质内容。
+
+### 加分任务
+
+**任务1**：基于[动手学深度学习项目](https://openi.pcl.ac.cn/mindspore-courses/d2l-mindspore)或者昇思MindSpore技术公开课大模型专题的[代码仓](https://openi.pcl.ac.cn/mindspore-courses/step_into_chatgpt)在平台输出学习笔记或心得，并将链接通过在原项目（即动手学深度学习项目或大模型专题代码仓）提交Issue（即创建任务）的形式，由助教进行审核通过后的优质内容可在挑战升级榜中加20积分/篇；在外部平台（如知乎、csdn等）进行的分享，将链接通过在项目提交Issue，由助教进行审核通过后的优质内容加10积分/篇。心得提交地址：请根据课程提交至对应项目 [昇思MindSpore版《动手学深度学习》课程笔记](https://openi.pcl.ac.cn/mindspore-courses/d2l-mindspore/issues/1) 或 [昇思MindSpore技术公开课大模型专题课程——学习笔记](https://openi.pcl.ac.cn/mindspore-courses/step_into_chatgpt/issues/3)
+
+**任务2** 根据动手学深度学习项目课程内容，或昇思MindSpore技术公开课大模型专题的内容，在启智社区输出相关代码项目，经助教评审通过后可加20积分/项目。动手学深度学习项目可尝试更换数据集，修改模型结构，模型调参优化等方式开展代码实践，昇思MindSpore技术公开课大模型专题课程可参考每节课程回顾中的课程实践建议。提交地址：请根据课程提交至对应项目  [昇思MindSpore版《动手学深度学习》代码实践](https://openi.pcl.ac.cn/mindspore-courses/d2l-mindspore/issues/2) 或 [昇思MindSpore技术公开课大模型专题课程——代码实践](https://openi.pcl.ac.cn/mindspore-courses/step_into_chatgpt/issues/4)
+
+
+### 积分用途
+
+开源打榜活动将依据用户的积分数量进行排名, 根据排名情况进行300-1000元阶梯性的**现金奖励** ，具体活动方案参见：[第八期打榜活动](https://openi.org.cn/index.php?a=lists&c=index&catid=233&m=content)
+
 ## 仓库地址
 
 - [Github](https://github.com/mindspore-courses/step_into_chatgpt)
@@ -31,6 +46,14 @@
 | 启智社区算力使用 | 登录启智OpenI AI协作平台，参与小白训练营，学习入门教程 <br> 视频教程可参考量子位推文 - [单卡就能运行的AI画画模型，小白也能看懂的教程来了](https://mp.weixin.qq.com/s/BI2wqrp-xnBYE60pDBZAbA) |
 | 课前预习 | 进入[mindspore-courses/step_into_chatgpt 代码仓](https://github.com/mindspore-courses/step_into_chatgpt)，浏览课程进行预习 |
 | 关注B站直播间 | 担心错过直播的同学可以关注[B站MindSpore官方账号](https://space.bilibili.com/526894060?spm_id_from=333.337.0.0) |
+
+## 前序课程
+
+有的小伙伴反馈，如果基础不太适合参与大模型学习怎么办，我们这里也为深度学习基础相对薄弱的小伙伴准备了前序课程————昇思MindSpore版《动手学深度学习》。
+
+《动手学深度学习》这本书由李沐等人主导从零开始教授深度学习，覆盖四大类模型：多层感知机、卷积神经网络、循环神经网络、和注意力机制，以及深度学习中的两大应用领域—计算机视觉和自然语言处理—中的典型任务。开发者们只需要有基础的Python变成和数学基础即可参与学习，不仅可以学习模型算法，教材中还提供了大量可运行的代码，供大家进行实践。
+
+同时，为帮助小伙伴们更好地学习知识，昇思MindSpore联合OpenI启智社区通过“我为开源打榜狂”举办了学习任务，我们为大家设置了一系列打分任务，详情请见上方 **【新增】#为MindSpore打Call#课程学习打榜活动**。
 
 
 ## 课程内容

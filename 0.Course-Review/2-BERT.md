@@ -31,3 +31,7 @@
 - 梯度缩放：为避免float16无法表示梯度的微小变化，在反向传播前放大损失值，并在获得梯度值后同比例缩小
 - 混合精度全流程
 <div align="center"><img src="./assets/mix_precision.png" alt="mix-precision"></div>
+
+# 课程实践
+
+- 参考课程中介绍的下游任务，自己选择一种进行实践；
