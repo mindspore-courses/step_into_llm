@@ -71,9 +71,9 @@
 | 5/20 | **MindSpore自动并行** | [Parallel](./5.Parallel/) |
 | 5/27 | **代码预训练**<br> * CodeBERT<br> * CodeX、Copilot<br> * CodeGeeX<br> * 使用CodeGeeX生成代码<br> | [CodeGeeX](./6.CodeGeeX/) |
 | 6/3 | **Prompt Tuning**<br> * 人工定义Prompt<br> * P-tuning<br> * 使用BERT/GPT2实现Prompt Tuning<br> | [Prompt](./7.Prompt/) |
-| 6/10 | **多模态预训练大模型**<br> * 紫东.太初多模态大模型2.0功能及应用介绍<br> * 语音识别的基础概述<br> * 语音识别的基础框架<br> * 语音识别现状及挑战<br> |  |
-| 6/17 | **Instruct Tuning**<br> * Let's think step by step<br> * InstructGPT<br> * Chain-of-thoughts<br> |  |
-| 6/24 | **RLHF**<br> * 强化学习与PPO算法<br> * InstructGPT/ChatGPT中的RLHF<br> * 动手训练一个Reward模型<br> * 使用GPT2实现ChatGPT全流程（基于人工反馈的评论生成模型）<br>|  |
+| 6/10 | **多模态预训练大模型**<br> * 紫东.太初多模态大模型2.0功能及应用介绍<br> * 语音识别的基础概述<br> * 语音识别的基础框架<br> * 语音识别现状及挑战<br> | [课程回放](https://www.bilibili.com/video/BV1wg4y1K72r/?spm_id_from=333.999.0.0) |
+| 6/17 | **Instruct Tuning**<br> * Let's think step by step<br> * InstructGPT<br> * Chain-of-thoughts<br> | [Insutruction](./8.Instruction/)  |
+| 6/24 | **RLHF**<br> * 强化学习与PPO算法<br> * InstructGPT/ChatGPT中的RLHF<br> * 动手训练一个Reward模型<br> * 使用GPT2实现ChatGPT全流程（基于人工反馈的评论生成模型）<br>| [RLHF](./9.RLHF/) |
 
 ## 课后活动
 
