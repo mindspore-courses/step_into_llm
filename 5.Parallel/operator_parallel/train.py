@@ -1,4 +1,5 @@
 """Operator Parallel Example"""
+import sys
 import numpy as np
 
 import mindspore as ms
@@ -10,6 +11,14 @@ import mindspore.dataset as ds
 import mindspore.communication as D
 from mindspore.common.initializer import initializer
 
+
+# 获取命令行参数列表
+args = sys.argv
+devices = int(args[1])
+
+if devices < 1 and devices > 8:
+    print('device_num error')
+    exit(0)
 
 step_per_epoch = 4
 
@@ -38,7 +47,7 @@ if __name__ == "__main__":
     ms.set_context(mode=ms.GRAPH_MODE)
     D.init()
     rank = D.get_rank()
-    ms.set_auto_parallel_context(parallel_mode="semi_auto_parallel", device_num=2, full_batch=True)
+    ms.set_auto_parallel_context(parallel_mode="semi_auto_parallel", device_num=devices, full_batch=True)
 
     np.random.seed(1)
     input_data = np.random.rand(16, 32).astype(np.float32)
@@ -53,7 +62,7 @@ if __name__ == "__main__":
 
     learning_rate = 0.001
     momentum = 0.1
-    epoch_size = 1
+    epoch_size = 5
     opt = Momentum(net.trainable_params(), learning_rate, momentum)
 
     model = ms.Model(net, loss_fn=loss, optimizer=opt)
