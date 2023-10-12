@@ -1,80 +1,195 @@
-# 昇思MindSpore技术公开课 - 大模型专题
+# 昇思MindSpore技术公开课
 
-如果你想要学习大模型背后的原理，了解前沿技术；渴望自己动手构建自己的语言模型，那就请不要错过我们大模型技术公开课！4.15起，每周六14:00-15:30，我们在b站等候你的到来₍ᐢ..ᐢ₎♡
+- ***探究前沿***：解读技术热点，解构热点模型
+- ***应用实践***：理论实践相结合，手把手指导开发
+- ***专家解读***：多领域专家，多元解读
+- ***开源共享***：课程免费，课件代码开源
+- ***大赛赋能***：ICT大赛赋能课程（大模型专题第一、二期）
+- ***系列课程***：大模型专题课程开展中，其他专题课程敬请期待
 
-## 【新增】#为MindSpore打Call#课程学习打榜活动
+## 报名方式
 
-除了可以免费使用启智社区提供的高达8卡NPU资源外，为了帮助开发者们更好的学习大模型专题课程内容, 昇思MindSpore联合OpenI启智社区通过"我为开源打榜狂"举办一系列学习打榜活动, 为大家设定一系列加分任务, 鼓励大家进行动手实践，输出沉淀优质内容。
+报名链接：https://xihe.mindspore.cn/course/foundation-model-v2/introduction 
 
-### 加分任务
+（注：参与免费课程必须报名哦！同步添加QQ群，后续课程事宜将在群内通知！）
 
-**任务1**：基于[动手学深度学习项目](https://openi.pcl.ac.cn/mindspore-courses/d2l-mindspore)或者昇思MindSpore技术公开课大模型专题的[代码仓](https://openi.pcl.ac.cn/mindspore-courses/step_into_chatgpt)在平台输出学习笔记或心得，并将链接通过在原项目（即动手学深度学习项目或大模型专题代码仓）提交Issue（即创建任务）的形式，由助教进行审核通过后的优质内容可在挑战升级榜中加20积分/篇；在外部平台（如知乎、csdn等）进行的分享，将链接通过在项目提交Issue，由助教进行审核通过后的优质内容加10积分/篇。心得提交地址：请根据课程提交至对应项目 [昇思MindSpore版《动手学深度学习》课程笔记](https://openi.pcl.ac.cn/mindspore-courses/d2l-mindspore/issues/1) 或 [昇思MindSpore技术公开课大模型专题课程——学习笔记](https://openi.pcl.ac.cn/mindspore-courses/step_into_chatgpt/issues/3)
+## 大模型专题第二期（进行中）
 
-**任务2** 根据动手学深度学习项目课程内容，或昇思MindSpore技术公开课大模型专题的内容，在启智社区输出相关代码项目，经助教评审通过后可加20积分/项目。动手学深度学习项目可尝试更换数据集，修改模型结构，模型调参优化等方式开展代码实践，昇思MindSpore技术公开课大模型专题课程可参考每节课程回顾中的课程实践建议。提交地址：请根据课程提交至对应项目  [昇思MindSpore版《动手学深度学习》代码实践](https://openi.pcl.ac.cn/mindspore-courses/d2l-mindspore/issues/2) 或 [昇思MindSpore技术公开课大模型专题课程——代码实践](https://openi.pcl.ac.cn/mindspore-courses/step_into_chatgpt/issues/4)
+紧跟前沿技术，解构热点大模型（如ChatGLM2、LLAMA2等）；手把手教你大模型从开发到应用全流程
 
-### 积分用途
+课程资料归档：[link](./Season2.step_into_llm/)
 
-开源打榜活动将依据用户的积分数量进行排名, 根据排名情况进行300-1000元阶梯性的**现金奖励** ，具体活动方案参见：[第八期打榜活动](https://openi.org.cn/index.php?a=lists&c=index&catid=233&m=content)
+### 教研团队
 
-## 仓库地址
+- 孙显 
 
-- [Github](https://github.com/mindspore-courses/step_into_chatgpt)
-- [OpenI](https://openi.pcl.ac.cn/mindspore-courses/step_into_chatgpt)
+    中国科学院空天信息创新研究院研究员 实验室副主任
 
-推荐使用OpenI平台，直接使用启智云脑算力执行公开课代码。
+- 龚柏涛（面壁智能）
 
-## 课程介绍
+    OpenBMB开源社区技术负责人 清华大学硕士 CPM-Bee开源大模型项目主要维护者
 
-《昇思MindSpore技术公开课》为昇思MindSpore与启智社区联合推出的系列课程。本次专题课程聚焦大模型领域，注重大模型代码实践。课程中，你将从实践的角度出发，通过复现ChatGPT的实现过程，手把手地搭建一个简易版的“ChatGPT”，从而深入了解大型语言模型的构建和原理。本课程将理论与代码进行融合，系统地逐步揭秘ChatGPT、GPT-4背后支持的大型语言类模型（Large Language Model， LLM），旨在让学生深入了解大模型领域知识的同时，真正切实地参与到大模型相关的任务实践中来。
+- 杨琨（达闼科技）
 
-课程内容之外，我们同时开展大模型访谈活动，邀请业界专家讨论大型语言模型领域的技术趋势与行业应用。此外，我们还提供了多样的社区活动与社区实习，让你能够巩固课程所学知识，深入拓展自己的能力，还可以获得实践证书。感兴趣的同学还可以参加昇腾AI创新大赛的大模型比赛，深入了解行业场景。
+    解决方案工程师
 
-## 课程安排
+- 李宁（达闼科技）
 
-| 课程事项 |  |
-|----------|----------|
-| 开课日期 | (预计) 2023/4/15 - 2023/6/17|
-| 直播时间 | 每周六14：00 - 15：30 |
-| 直播平台 | B站 |
-| 课程回放 | [B站 MindSpore官方账号](https://space.bilibili.com/526894060) |
-| 算力平台 | [启智OpenI平台](https://openi.pcl.ac.cn/) |
+    解决方案经理
 
-## 课前准备
+- 周汝霖 
 
-| 任务 | 内容 |
-|----------|----------|
-| MindSpore的安装与使用 | 登录MindSpore官网，参考[安装指南](https://www.mindspore.cn/install)安装MindSpore，并学习[入门教程](https://www.mindspore.cn/tutorials/zh-CN/r2.0.0-alpha/index.html) <br> 也可以通过[应用实践案例](https://www.mindspore.cn/tutorials/application/zh-CN/r2.0.0-alpha/index.html)，简单了解MindSpore端到端模型实践 |
-| 启智社区算力使用 | 登录启智OpenI AI协作平台，参与小白训练营，学习入门教程 <br> 视频教程可参考量子位推文 - [单卡就能运行的AI画画模型，小白也能看懂的教程来了](https://mp.weixin.qq.com/s/BI2wqrp-xnBYE60pDBZAbA) |
-| 课前预习 | 进入[mindspore-courses/step_into_chatgpt 代码仓](https://github.com/mindspore-courses/step_into_chatgpt)，浏览课程进行预习 |
-| 关注B站直播间 | 担心错过直播的同学可以关注[B站MindSpore官方账号](https://space.bilibili.com/526894060?spm_id_from=333.337.0.0) |
+    昇思MindSpore布道师 深圳大学华为智能基座社长 2022年华为昇思十大优秀开发者
 
-## 前序课程
+- CQU弟中弟
 
-有的小伙伴反馈，如果基础不太适合参与大模型学习怎么办，我们这里也为深度学习基础相对薄弱的小伙伴准备了前序课程————昇思MindSpore版《动手学深度学习》。
+    昇思MindSpore易用性专家 昇思MindSpore布道师
 
-《动手学深度学习》这本书由李沐等人主导从零开始教授深度学习，覆盖四大类模型：多层感知机、卷积神经网络、循环神经网络、和注意力机制，以及深度学习中的两大应用领域—计算机视觉和自然语言处理—中的典型任务。开发者们只需要有基础的Python变成和数学基础即可参与学习，不仅可以学习模型算法，教材中还提供了大量可运行的代码，供大家进行实践。
+- Eric 
 
-同时，为帮助小伙伴们更好地学习知识，昇思MindSpore联合OpenI启智社区通过“我为开源打榜狂”举办了学习任务，我们为大家设置了一系列打分任务，详情请见上方 **【新增】#为MindSpore打Call#课程学习打榜活动**。
+    昇思MindSpore模型压缩技术专家 昇思MindSpore布道师
+
+- Selina
+
+    昇思MindSpore布道师
+
+### 课程介绍
+
+***【课前学习】 MindSpore Transformers大模型套件：架构讲解与使用入门***
+
+介绍MindSpore Transformers大模型套件现状，讲解套件架构及高阶接口设计，走读工程架构模块代码，学习基本使用方式
+
+[link](https://www.bilibili.com/video/BV1jh4y1m7xV/?spm_id_from=333.999.0.0)
 
 
-## 课程内容
+***第一讲：ChatGLM***
 
-> 最新通知： 考虑到4月29日为五一假期，小伙伴们可能会有自己的安排，同时也为了给大家提供更加优质的课程内容。经过综合考量，我们决定将4月29日的GPT课程后移一周，调整至5月6日开课，其余课程时间安排保持不变。特此通知，感谢大家的理解（鞠躬）。
+介绍技术公开课整体课程安排；ChatGLM模型结构，走读代码演示ChatGLM推理部署
 
-| 日期 | 课程 | 课件归档 |
-|----------|----------|----------|
-| 4/15 | **Transformer**<br> * Multi-Head Attention<br> * Transformer结构<br>&nbsp;&nbsp;&nbsp;&nbsp; * 输入编码 <br> &nbsp;&nbsp;&nbsp;&nbsp; * Encoder <br> &nbsp;&nbsp;&nbsp;&nbsp; * Decoder <br> | [Transformer](./1.Transformer/) |
-| 4/22 | **BERT**<br> * BERT预训练<br> * BERT Finetune<br> * 使用MindSpore写一个数据并行的BERT<br> | [BERT](./2.BERT/) |
-| 4/29 | 劳动节休息，劳逸结合才能更好的学习哦~ |  |
-| 5/6 | **GPT**<br> * Unsupervised Language Modelling<br> * Supervised Fine-Tuning<br> * 使用GPT Finetune一个Task<br> | [GPT](./3.GPT/) |
-| 5/13 | **GPT2**<br> * Task Conditioning<br> * Zero Shot Learning and Zero Shot Task Transfer<br> * 使用GPT2训练一个few shot任务<br> | [GPT-2](./4.GPT2/) |
-| 5/20 | **MindSpore自动并行** | [Parallel](./5.Parallel/) |
-| 5/27 | **代码预训练**<br> * CodeBERT<br> * CodeX、Copilot<br> * CodeGeeX<br> * 使用CodeGeeX生成代码<br> | [CodeGeeX](./6.CodeGeeX/) |
-| 6/3 | **Prompt Tuning**<br> * 人工定义Prompt<br> * P-tuning<br> * 使用BERT/GPT2实现Prompt Tuning<br> | [Prompt](./7.Prompt/) |
-| 6/10 | **多模态预训练大模型**<br> * 紫东.太初多模态大模型2.0功能及应用介绍<br> * 语音识别的基础概述<br> * 语音识别的基础框架<br> * 语音识别现状及挑战<br> | [课程回放](https://www.bilibili.com/video/BV1wg4y1K72r/?spm_id_from=333.999.0.0) |
-| 6/17 | **Instruct Tuning**<br> * Let's think step by step<br> * InstructGPT<br> * Chain-of-thoughts<br> | [Insutruction](./8.Instruction/) |
-| 6/24 | **RLHF**<br> * 强化学习与PPO算法<br> * InstructGPT/ChatGPT中的RLHF<br> * 动手训练一个Reward模型<br> * 使用GPT2实现ChatGPT全流程（基于人工反馈的评论生成模型）<br>| [RLHF](./9.RLHF/) |
 
-## 课后活动
+***第二讲：多模态遥感智能解译基础模型***
 
-昇思MindSpore社区活动入口：[Link](https://gitee.com/mindspore/community/issues/I6Q9H4)
+介绍多模态遥感智能解译基础模型的原理、训推等相关技术，以及模型相关行业应用
+
+***第三讲：ChatGLM2***
+
+介绍ChatGLM2模型结构，走读代码演示ChatGLM推理部署
+
+***第四讲：文本生成解码原理***
+
+介绍Beam search和采样的原理及代码实现
+
+***第五讲：LLAMA***
+
+介绍LLAMA模型结构，走读代码演示推理部署，介绍Alpaca
+
+***第六讲：LLAMA2***
+
+介绍LLAMA2模型结构，走读代码演示LLAMA2 chat部署
+
+***第七讲：云从大模型***
+
+***第八讲：MOE***
+
+***第九讲：CPM***
+
+介绍CPM-Bee预训练、推理、微调及代码现场演示
+
+***第十讲：高效参数微调***
+
+介绍Lora、（P-Tuning）原理及代码实现
+
+***第十一讲：参数微调平台***
+
+***第十二讲：Prompt Engineering***
+
+***第十三讲：量化***
+
+介绍低比特量化等相关模型量化技术
+
+***第十四讲：框架LangChain模块解析***
+
+解析Models、Prompts、Memory、Chains、Agents、Indexes、Callbacks模块，及案例分析
+
+***第十五讲：LangChain对话机器人综合案例***
+
+MindSpore Transformers本地模型与LangChain框架组合使用，通过LangChain框架管理向量库并基于向量库对MindSpore Transformers本地模型问答进行优化
+
+## 大模型专题第一期（已结课）
+
+手把手教你搭建一个简易版ChatGPT
+
+课程资料归档：[link](./Season1.step_into_chatgpt/)
+
+### 教研团队
+
+- 刘群
+
+    华为语音语义首席科学家
+
+- 苏腾 
+
+    昇思MindSpore技术专家 昇思MindSpore超大规模AI架构师
+
+- 夏箫 
+
+    清华大学知识工程实验室博士生 代码生成模型CodeGeeX主要作者之一
+
+- 王金桥 
+
+    中国科学院自动化研究所紫东太初大模型研究中心常务副主任 武汉人工智能研究院院长
+
+- 唐帅 
+
+    武汉人工智能研究院语音算法工程师
+
+- CQU弟中弟 
+
+    昇思MindSpore易用性专家 昇思MindSpore布道师
+
+- Selina 
+
+    昇思MindSpore布道师
+
+### 课程介绍
+
+***第一讲：Transformer***
+
+Multi-head self-attention原理。Masked self-attention的掩码处理方式。基于Transformer的机器翻译任务训练。
+
+***第二讲：BERT***
+
+基于Transformer Encoder的BERT模型设计：MLM和NSP任务。BERT进行下游任务微调的范式。
+
+***第三讲：GPT***
+
+基于Transformer Decoder的GPT模型设计：Next token prediction。GPT下游任务微调范式。
+
+***第四讲：GPT2***
+
+GPT2的核心创新点，包括Task Conditioning和Zero shot learning；模型实现细节基于GPT1的改动。
+
+***第五讲：MindSpore自动并行***
+
+以MindSpore分布式并行特性为依托的数据并行、模型并行、Pipeline并行、内存优化等技术。
+
+***第六讲：代码预训练***
+
+代码预训练发展沿革。Code数据的预处理。CodeGeex代码预训练大模型。
+
+***第七讲：Prompt Tuning***
+
+Pretrain-finetune范式到Prompt tuning范式的改变。Hard prompt和Soft prompt相关技术。只需要改造描述文本的prompting。
+
+***第八讲：多模态预训练大模型***
+
+紫东太初多模态大模型的设计、数据处理和优势；语音识别的理论概述、系统框架和现状及挑战。
+
+***第九讲：Instruction Tuning***
+
+Instruction tuning的核心思想：让模型能够理解任务描述（指令）。Instruction tuning的局限性：无法支持开放域创新性任务、无法对齐LM训练目标和人类需求。Chain-of-thoughts：通过在prompt中提供示例，让模型“举一反三”。
+
+***第十讲：RLHF***
+
+RLHF核心思想：将LLM和人类行为对齐。RLHF技术分解：LLM微调、基于人类反馈训练奖励模型、通过强化学习PPO算法实现模型微调。
+
