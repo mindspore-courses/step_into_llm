@@ -42,12 +42,10 @@ def create_dataset(data_path, repeat_num=1, batch_size=32, rank_id=0, rank_size=
     rescale = 1.0 / 255.0
     shift = 0.0
 
-    # get rank_id and rank_size
     rank_id = get_rank()
     rank_size = get_group_size()
     data_set = ds.Cifar10Dataset(data_path, num_shards=rank_size, shard_id=rank_id)
 
-    # define map operations
     random_crop_op = vision.RandomCrop((32, 32), (4, 4, 4, 4))
     random_horizontal_op = vision.RandomHorizontalFlip()
     resize_op = vision.Resize((resize_height, resize_width))
@@ -59,17 +57,13 @@ def create_dataset(data_path, repeat_num=1, batch_size=32, rank_id=0, rank_size=
     c_trans = [random_crop_op, random_horizontal_op]
     c_trans += [resize_op, rescale_op, normalize_op, changeswap_op]
 
-    # apply map operations on images
     data_set = data_set.map(operations=type_cast_op, input_columns="label")
     data_set = data_set.map(operations=c_trans, input_columns="image")
 
-    # apply shuffle operations
     data_set = data_set.shuffle(buffer_size=10)
 
-    # apply batch operations
     data_set = data_set.batch(batch_size=batch_size, drop_remainder=True)
 
-    # apply repeat operations
     data_set = data_set.repeat(repeat_num)
 
     return data_set

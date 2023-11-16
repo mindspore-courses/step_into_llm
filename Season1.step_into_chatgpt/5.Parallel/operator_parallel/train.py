@@ -12,7 +12,6 @@ import mindspore.communication as D
 from mindspore.common.initializer import initializer
 
 
-# 获取命令行参数列表
 args = sys.argv
 devices = int(args[1])
 

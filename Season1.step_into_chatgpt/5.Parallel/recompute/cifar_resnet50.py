@@ -67,10 +67,10 @@ def create_dataset(repeat_num=1, training=True):
     rescale = 1.0 / 255.0
     shift = 0.0
 
-    # define map operations
-    random_crop_op = vision.RandomCrop((32, 32), (4, 4, 4, 4)) # padding_mode default CONSTANT
+
+    random_crop_op = vision.RandomCrop((32, 32), (4, 4, 4, 4))
     random_horizontal_op = vision.RandomHorizontalFlip()
-    resize_op = vision.Resize((resize_height, resize_width)) # interpolation default BILINEAR
+    resize_op = vision.Resize((resize_height, resize_width))
     rescale_op = vision.Rescale(rescale, shift)
     normalize_op = vision.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))
     changeswap_op = vision.HWC2CHW()
@@ -82,23 +82,18 @@ def create_dataset(repeat_num=1, training=True):
     c_trans += [resize_op, rescale_op, normalize_op,
                 changeswap_op]
 
-    # apply map operations on images
     cifar_ds = cifar_ds.map(operations=type_cast_op, input_columns="label")
     cifar_ds = cifar_ds.map(operations=c_trans, input_columns="image")
 
-    # apply shuffle operations
     cifar_ds = cifar_ds.shuffle(buffer_size=10)
 
-    # apply batch operations
     cifar_ds = cifar_ds.batch(batch_size=args_opt.batch_size, drop_remainder=True)
 
-    # apply repeat operations
     cifar_ds = cifar_ds.repeat(repeat_num)
 
     return cifar_ds
 
 if __name__ == '__main__':
-    # in this way by judging the mark of args, users will decide which function to use
     if not args_opt.do_eval and args_opt.run_distribute:
         ms.set_auto_parallel_context(device_num=args_opt.device_num, parallel_mode=ms.ParallelMode.DATA_PARALLEL,
                                      all_reduce_fusion_config=[140])
@@ -111,7 +106,6 @@ if __name__ == '__main__':
 
     model = ms.Model(net, loss_fn=ls, optimizer=opt, metrics={'acc'})
 
-    # as for train, users could use model.train
     if args_opt.do_train:
         dataset = create_dataset()
         batch_num = dataset.get_dataset_size()
@@ -120,7 +114,6 @@ if __name__ == '__main__':
         loss_cb = train.LossMonitor()
         model.train(epoch_size, dataset, callbacks=[ckpoint_cb, loss_cb])
 
-    # as for evaluation, users could use model.eval
     if args_opt.do_eval:
         if args_opt.checkpoint_path:
             param_dict = ms.load_checkpoint(args_opt.checkpoint_path)
