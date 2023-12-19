@@ -61,19 +61,18 @@
 
 > 最新通知： 考虑到4月29日为五一假期，小伙伴们可能会有自己的安排，同时也为了给大家提供更加优质的课程内容。经过综合考量，我们决定将4月29日的GPT课程后移一周，调整至5月6日开课，其余课程时间安排保持不变。特此通知，感谢大家的理解（鞠躬）。
 
-| 日期 | 课程 | 课件归档 |
-|----------|----------|----------|
-| 4/15 | **Transformer**<br> * Multi-Head Attention<br> * Transformer结构<br>&nbsp;&nbsp;&nbsp;&nbsp; * 输入编码 <br> &nbsp;&nbsp;&nbsp;&nbsp; * Encoder <br> &nbsp;&nbsp;&nbsp;&nbsp; * Decoder <br> | [Transformer](./1.Transformer/) |
-| 4/22 | **BERT**<br> * BERT预训练<br> * BERT Finetune<br> * 使用MindSpore写一个数据并行的BERT<br> | [BERT](./2.BERT/) |
-| 4/29 | 劳动节休息，劳逸结合才能更好的学习哦~ |  |
-| 5/6 | **GPT**<br> * Unsupervised Language Modelling<br> * Supervised Fine-Tuning<br> * 使用GPT Finetune一个Task<br> | [GPT](./3.GPT/) |
-| 5/13 | **GPT2**<br> * Task Conditioning<br> * Zero Shot Learning and Zero Shot Task Transfer<br> * 使用GPT2训练一个few shot任务<br> | [GPT-2](./4.GPT2/) |
-| 5/20 | **MindSpore自动并行** | [Parallel](./5.Parallel/) |
-| 5/27 | **代码预训练**<br> * CodeBERT<br> * CodeX、Copilot<br> * CodeGeeX<br> * 使用CodeGeeX生成代码<br> | [CodeGeeX](./6.CodeGeeX/) |
-| 6/3 | **Prompt Tuning**<br> * 人工定义Prompt<br> * P-tuning<br> * 使用BERT/GPT2实现Prompt Tuning<br> | [Prompt](./7.Prompt/) |
-| 6/10 | **多模态预训练大模型**<br> * 紫东.太初多模态大模型2.0功能及应用介绍<br> * 语音识别的基础概述<br> * 语音识别的基础框架<br> * 语音识别现状及挑战<br> | [课程回放](https://www.bilibili.com/video/BV1wg4y1K72r/?spm_id_from=333.999.0.0) |
-| 6/17 | **Instruct Tuning**<br> * Let's think step by step<br> * InstructGPT<br> * Chain-of-thoughts<br> | [Insutruction](./8.Instruction/) |
-| 6/24 | **RLHF**<br> * 强化学习与PPO算法<br> * InstructGPT/ChatGPT中的RLHF<br> * 动手训练一个Reward模型<br> * 使用GPT2实现ChatGPT全流程（基于人工反馈的评论生成模型）<br>| [RLHF](./9.RLHF/) |
+| 章节序号 | 章节名称 | 课程简介                                        | 视频 | 课件及代码 | 知识点总结 |
+|:----:|:----:|:--------------------------------------------|:----:|:----:|:----:|
+| 第一讲 | Transformer | Multi-head self-attention原理。Masked self-attention的掩码处理方式。基于Transformer的机器翻译任务训练。 | [link](https://www.bilibili.com/video/BV16h4y1W7us/?spm_id_from=333.999.0.0&vd_source=eb3a45e6eb4dccc5795f97586b78f4290) | [link](./Season1.step_into_chatgpt/1.Transformer/) | [link](./Season1.step_into_chatgpt/0.Course-Review/1-Transformer.md) |
+| 第二讲 | BERT | 基于Transformer Encoder的BERT模型设计：MLM和NSP任务。BERT进行下游任务微调的范式。 | [link](https://www.bilibili.com/video/BV1xs4y1M72q/?spm_id_from=333.999.0.0&vd_source=eb3a45e6eb4dccc5795f97586b78f429) | [link](./Season1.step_into_chatgpt/2.BERT/) | [link](./Season1.step_into_chatgpt/0.Course-Review/2-BERT.md) |
+| 第三讲 | GPT | 基于Transformer Decoder的GPT模型设计：Next token prediction。GPT下游任务微调范式。 | [link](https://www.bilibili.com/video/BV1Gh411w7HC/?spm_id_from=333.999.0.0&vd_source=eb3a45e6eb4dccc5795f97586b78f429) | [link](./Season1.step_into_chatgpt/3.GPT/) | [link](./Season1.step_into_chatgpt/0.Course-Review/3-GPT.md) |
+| 第四讲 | GPT2 | GPT2的核心创新点，包括Task Conditioning和Zero shot learning；模型实现细节基于GPT1的改动。 |  [link](https://www.bilibili.com/video/BV1Ja4y1u7xx/?spm_id_from=333.999.0.0&vd_source=eb3a45e6eb4dccc5795f97586b78f429) | [link](./Season1.step_into_chatgpt/4.GPT2/) | [link](./Season1.step_into_chatgpt/0.Course-Review/4-GPT2.md) |
+| 第五讲 | MindSpore自动并行 | 以MindSpore分布式并行特性为依托的数据并行、模型并行、Pipeline并行、内存优化等技术。 |  [link](https://www.bilibili.com/video/BV1VN41117AG/?spm_id_from=333.999.0.0&vd_source=eb3a45e6eb4dccc5795f97586b78f429) | [link](./Season1.step_into_chatgpt/5.Parallel/) | [link](./Season1.step_into_chatgpt/0.Course-Review/5-Parallel.md) |
+| 第六讲 | 代码预训练 | 代码预训练发展沿革。Code数据的预处理。CodeGeex代码预训练大模型。      |  [link](https://www.bilibili.com/video/BV1Em4y147a1/?spm_id_from=333.999.0.0&vd_source=eb3a45e6eb4dccc5795f97586b78f429) | [link](./Season1.step_into_chatgpt/6.CodeGeeX/) | [link](./Season1.step_into_chatgpt/0.Course-Review/6-CodeGeex.md) |
+| 第七讲 | Prompt Tuning | Pretrain-finetune范式到Prompt tuning范式的改变。Hard prompt和Soft prompt相关技术。只需要改造描述文本的prompting。 | [link](https://www.bilibili.com/video/BV1Wg4y1K77R/?spm_id_from=333.999.0.0&vd_source=eb3a45e6eb4dccc5795f97586b78f429) | [link](./Season1.step_into_chatgpt/7.Prompt/) | [link](./Season1.step_into_chatgpt/0.Course-Review/7-Prompt.md) |
+| 第八讲 | 多模态预训练大模型 | 紫东太初多模态大模型的设计、数据处理和优势；语音识别的理论概述、系统框架和现状及挑战。 | [link](https://www.bilibili.com/video/BV1wg4y1K72r/?spm_id_from=333.999.0.0&vd_source=eb3a45e6eb4dccc5795f97586b78f429) | / | / |
+| 第九讲 | Instruct Tuning | Instruction tuning的核心思想：让模型能够理解任务描述（指令）。Instruction tuning的局限性：无法支持开放域创新性任务、无法对齐LM训练目标和人类需求。Chain-of-thoughts：通过在prompt中提供示例，让模型“举一反三”。 | [link](https://www.bilibili.com/video/BV1cm4y1e7Cc/?spm_id_from=333.999.0.0&vd_source=eb3a45e6eb4dccc5795f97586b78f429) | [link](./Season1.step_into_chatgpt/8.Instruction/) | [link](./Season1.step_into_chatgpt/0.Course-Review/8-Instruction.md) |
+| 第十讲 | RLHF | RLHF核心思想：将LLM和人类行为对齐。RLHF技术分解：LLM微调、基于人类反馈训练奖励模型、通过强化学习PPO算法实现模型微调。 | [link](https://www.bilibili.com/video/BV15a4y1c7dv/?spm_id_from=333.999.0.0&vd_source=eb3a45e6eb4dccc5795f97586b78f429) | [link](./Season1.step_into_chatgpt/9.RLHF/) | 更新中 |
 
 ## 课后活动
 
