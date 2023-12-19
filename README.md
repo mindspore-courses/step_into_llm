@@ -83,6 +83,8 @@
 
 ### 加入我们
 
-<center class="third">
-    <img src="./assets/groupchat_qq.png" width="170"/><img src="./assets/sign_up.png" width="180"/><img src="./assets/wechat_official_account.png" width="180"/>
-</center>
+<figure class="third">
+    <img src="./assets/groupchat_qq.png" width=200/>
+    <img src="./assets/sign_up.png" width=200/>
+    <img src="./assets/wechat_official_account.png" width=200/>
+</figure>
