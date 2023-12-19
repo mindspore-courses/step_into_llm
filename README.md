@@ -48,7 +48,7 @@
 
 正在进行的第二期课程（第11讲-）在第一期的基础上做了全方位的升级，围绕大模型从开发到应用的全流程实践展开，讲解更前沿的大模型知识、丰富更多元的讲师阵容，期待你的加入！
 
-| 章节序号 | 章节名称 | 课程简介                                        | 视频链接 | 课件及代码链接 | 知识点总结 |
+| 章节序号 | 章节名称 | 课程简介                                        | 视频 | 课件及代码 | 知识点总结 |
 |:----:|:----:|:--------------------------------------------|:----:|:----:|:----:|
 | 第一讲 | Transformer | Multi-head self-attention原理。Masked self-attention的掩码处理方式。基于Transformer的机器翻译任务训练。 | [link](https://www.bilibili.com/video/BV16h4y1W7us/?spm_id_from=333.999.0.0&vd_source=eb3a45e6eb4dccc5795f97586b78f4290) | [link](./Season1.step_into_chatgpt/1.Transformer/) | [link](./Season1.step_into_chatgpt/0.Course-Review/1-Transformer.md) |
 | 第二讲 | BERT | 基于Transformer Encoder的BERT模型设计：MLM和NSP任务。BERT进行下游任务微调的范式。 | [link](https://www.bilibili.com/video/BV1xs4y1M72q/?spm_id_from=333.999.0.0&vd_source=eb3a45e6eb4dccc5795f97586b78f429) | [link](./Season1.step_into_chatgpt/2.BERT/) | [link](./Season1.step_into_chatgpt/0.Course-Review/2-BERT.md) |
