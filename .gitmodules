@@ -1,0 +1,3 @@
+[submodule "Season2.step_into_llm/08.MoE/mixtral-mindspore"]
+	path = Season2.step_into_llm/08.MoE/mixtral-mindspore
+	url = https://github.com/lvyufeng/mistral-mindspore
