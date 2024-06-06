@@ -1,0 +1,3 @@
+[submodule "ChatPDF"]
+	path = ChatPDF
+	url = https://github.com/lvyufeng/ChatPDF.git
