@@ -1,3 +1,0 @@
-[submodule "vscode-extension/codegeex-vscode-extension"]
-	path = vscode-extension/codegeex-vscode-extension
-	url = git@github.com:CodeGeeX/codegeex-vscode-extension.git
