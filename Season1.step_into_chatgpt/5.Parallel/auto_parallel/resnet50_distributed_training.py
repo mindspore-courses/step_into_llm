@@ -27,8 +27,8 @@ from mindspore import train
 import mindspore as ms
 from resnet import resnet50
 
-ms.set_context(mode=ms.GRAPH_MODE, device_target="GPU")
-init("nccl")
+ms.set_context(mode=ms.GRAPH_MODE, device_target="Ascend")
+init("hccl")
 
 def create_dataset(data_path, repeat_num=1, batch_size=32, rank_id=0, rank_size=1):     # pylint: disable=missing-docstring
     resize_height = 224
