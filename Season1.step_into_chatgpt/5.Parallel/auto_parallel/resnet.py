@@ -19,7 +19,7 @@ import numpy as np
 import mindspore.nn as nn
 import mindspore as ms
 import mindspore.ops as ops
-
+ms.set_context(mode=ms.GRAPH_MODE, device_target="Ascend")
 
 def weight_variable_0(shape):
     """weight_variable_0"""

@@ -19,7 +19,7 @@ import numpy as np
 import mindspore.nn as nn
 import mindspore as ms
 import mindspore.ops as ops
-
+from mindspore.communication import init
 
 def weight_variable_0(shape):
     """weight_variable_0"""
@@ -319,7 +319,12 @@ class ResNet(nn.Cell):
         x = self.squeeze(x)
         x = self.fc(x)
         return x
+# Set context for Ascend NPU
+ms.set_context(mode=ms.GRAPH_MODE, device_target="Ascend")
+ms.set_auto_parallel_context(parallel_mode=ms.ParallelMode.SEMI_AUTO_PARALLEL, enable_parallel_optimizer=True, device_num=2)
 
+# Initialize communication (for distributed training, if necessary)
+init()
 
 def resnet50(batch_size, num_classes):
     """create resnet50"""
