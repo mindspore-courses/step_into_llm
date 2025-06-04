@@ -6,7 +6,7 @@ tokenizer = AutoTokenizer.from_pretrained("hf-internal-testing/tiny-random-layou
 dqa_pipeline = pipeline("document-question-answering", model="hf-internal-testing/tiny-random-layoutlmv2",
                         tokenizer=tokenizer)
 
-image_url = "https://hf.co/spaces/impira/docquery/resolve/2f6c96314dc84dfda62d40de9da55f2f5165d403/invoice.png"
+image_url = "https://pic.rmb.bdstatic.com/bjh/bc1fe8c9991/250405/6fc560e10aef1529da8d13fb25fc1c7f.jpeg"
 question = "How many cats are there?"
 
 outputs = dqa_pipeline(image=image_url, question=question, top_k=2)
@@ -33,7 +33,7 @@ tokenizer = AutoTokenizer.from_pretrained("tiennvcs/layoutlmv2-base-uncased-fine
 dqa_pipeline = pipeline("document-question-answering", model="tiennvcs/layoutlmv2-base-uncased-finetuned-docvqa",
                         tokenizer=tokenizer)
 
-image_path = "./path/to/your/invoice/image.png"
+image_path = "invoice.png"
 words, boxes = process_image_and_ocr(image_path)
 question = "What is the invoice number?"
 
