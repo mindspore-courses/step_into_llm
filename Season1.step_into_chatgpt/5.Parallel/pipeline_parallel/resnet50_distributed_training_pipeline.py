@@ -28,7 +28,8 @@ from mindspore import train
 from resnet import resnet50
 
 device_target = os.getenv('DEVICE_TARGET')
-ms.set_context(mode=ms.GRAPH_MODE, device_target=device_target)
+ms.set_context(mode=ms.GRAPH_MODE, device_target='Ascend')
+
 if device_target == "Ascend":
     device_id = int(os.getenv('DEVICE_ID'))
     ms.set_context(device_id=device_id)
